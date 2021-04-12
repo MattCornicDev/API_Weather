@@ -29,7 +29,7 @@ function getTemp() {
         var req = new XMLHttpRequest();
 
         //Récupération de la requête http
-        var url = "https://api.openweathermap.org/data/2.5/weather?q=" + ville2 +
+        var url = "https://api.openweathermap.org/data/2.5/weather?q=" + villeSaisie +
             ",france&lang=fr&units=metric&appid=eb3bb071a70595d1052688dd6c14251f";
 
         //Lancement de la requête pour l'icone

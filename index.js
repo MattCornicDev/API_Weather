@@ -43,7 +43,7 @@ req.then(function(response){response.text().then(function(meteo){
     alert(lat);
 
     mymap = L.map('map').setView([lat, lon], 10);
-    L.tileLayer('api.openweathermap.org/data/2.5/weather?q=ville&appid=ce385607a5755d07012416f5d315a3d0', {
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
                         attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
                         minZoom: 1,
                         maxZoom: 12,
